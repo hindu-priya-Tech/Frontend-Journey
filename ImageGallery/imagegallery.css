@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: darkmagenta;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.container div{
+    margin: 10px;
+    width: 250px;
+    color: aliceblue;
+    flex-basis: 20%;
+   
+}
+
+.container img{
+    border-radius: 10px;
+}
