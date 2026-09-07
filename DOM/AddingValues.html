@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddingValues</title>
+
+    
+</head>
+<body  >
+
+    
+     
+    <input id="one">
+    <input id="two">
+
+    <button onclick="resultFunction()">ADD</button>
+    <h1 id="result">Result</h1>
+    
+
+<script>
+
+    // select
+
+    var box1 = document.getElementById("one")
+    var box2 = document.getElementById("two")
+    var result = document.getElementById("result")
+
+    
+    function resultFunction()
+    {
+       var box1Value = Number(box1.value)
+       var box2Value = Number(box2.value)
+       var total =box1Value + box2Value
+       result.textContent = total
+    }
+   
+</script>
+  
+    
+</body>
+</html>
